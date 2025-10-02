@@ -1,5 +1,9 @@
 # A build script for libvips to use mozjpeg on AWS 'AmazonLinux' EC2 instances
 
+> [!CAUTION]
+> This repository has been archived as of October 2025.  
+> If you wish to update or extend this project, please create a fork.
+
 ## Raison D'être
 
 When building a scalable high-performance stack for image manipulation and compression running on AWS, we encountered the problem that [Sharp](http://sharp.dimens.io/en/stable/), our Node library of choice for high performance image resizing, did not successfully pick up our global installation of [libvips](https://jcupitt.github.io/libvips/) on AWS 'AmazonLinux' EC2 instances, as was stated in their documentation.
